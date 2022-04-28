@@ -12,3 +12,6 @@
 
 // menghapus semua tabel dan data dalam tabel pada database (warning)
 - php spark migrate:rollback
+
+// Menghapus semua tabel dan data pada database kemudian membuat tabel baru sesuai dengan perubahan terbaru dari file migrate
+- php spark migrate:refresh
