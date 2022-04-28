@@ -1,11 +1,14 @@
 // perintah membuat file migration / membuat database dengan CLI
 - php spark migrate:create (nama tabel)
 
-// eksekusi migration input data ke database dengan perintah
+// eksekusi migration file membuat tabel dan strukturnya ke database 
 - php spark migrate
 
 // membuat file seeder
 - php spark make:seeder(nama file Seeder)
 
-// perintah eksekusi seeder
+// perintah eksekusi file seeder input data ke tabel pada database
 - php spark db:seed (nama file seeder)
+
+// menghapus semua tabel dan data dalam tabel pada database (warning)
+- php spark migrate:rollback
