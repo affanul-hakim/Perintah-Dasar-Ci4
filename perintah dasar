@@ -7,7 +7,7 @@
 // membuat file seeder
 - php spark make:seeder(nama file Seeder)
 
-// perintah eksekusi file seeder input data ke tabel pada database
+// perintah eksekusi file seeder untuk input data ke tabel pada database
 - php spark db:seed (nama file seeder)
 
 // menghapus semua tabel dan data dalam tabel pada database (warning)
