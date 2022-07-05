@@ -1,3 +1,6 @@
+// Menjalankan Ci 4
+php spark serve
+
 // perintah membuat file migration / membuat database dengan CLI
 - php spark migrate:create (nama tabel)
 
